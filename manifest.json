@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Ejecutar Script en Página",
+  "version": "1.0",
+  "description": "Ejecuta un script al hacer clic en el icono de la extensión",
+  "icons": {
+    "60": "icon-60.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "world": "MAIN",
+      "js": ["content.js"],
+      "matches": ["https://apptocreditos.bancor.com.ar/*"],
+      "run_at": "document_end"
+    }
+  ]
+}
