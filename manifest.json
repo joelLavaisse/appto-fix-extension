@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Ejecutar Script en Página",
+  "name": "Appto fix",
   "version": "1.0",
-  "description": "Ejecuta un script al hacer clic en el icono de la extensión",
+  "description": "Abre propipedades del search en una nueva pestaña.",
   "icons": {
     "60": "icon-60.png"
   },
